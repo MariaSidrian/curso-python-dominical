@@ -1,0 +1,81 @@
+# Clase 2 – Manipulación de cadenas de texto en Python
+# Tema: len(), upper(), lower(), replace(), split(), find(), isdigit()
+
+#Para saber el largo de un texto se utiliza len
+
+frase = "La programacion es el arte de crear soluciones con codigo"
+largo = "len(frase)"
+#Mayusculas
+print(frase.upper())
+
+"""Con minusculas"""
+
+frase = "La programacion es el arte de crear soluciones con codigo"
+largo = "len(frase)"
+#Minusculas
+print(frase.lower())
+
+"""Cambio de una palabra de frase"""
+
+frase = "La programacion es el arte de crear soluciones con codigo"
+largo = "len(frase)"
+#Cambiar una palabra de la frase
+print(frase.replace("codigo", "phyton"))
+
+frase = "La programacion es el arte de crear soluciones con codigo"
+largo = "len(frase)"
+print(frase.replace("codigo", "phyton"))
+print(frase.split(","))
+
+frase = "La programacion es el arte de crear soluciones eficientes con codigo"
+largo = "len(frase)"
+print(largo)
+#Mayusculas
+print(frase.upper())
+#minusculas
+print(frase.lower())
+#sale la priera letra de l oracion en mayusculas
+print(frase.capitalize())
+#cambiar la palabra de una frase
+print(frase.replace("eficientes","innovadoras"))
+print(frase.split(" "))
+print(frase.title())
+print(frase)
+
+frase = "La programacion es el arte de crear soluciones eficientes con codigo"
+largo = "len(frase)"
+print(largo)
+#Mayusculas
+print(frase.upper())
+#minusculas
+print(frase.lower())
+#sale la priera letra de l oracion en mayusculas
+print(frase.capitalize())
+#cambiar la palabra de una frase
+print(frase.replace("codigo","phyton"))
+#separar la frase en palabras
+print(frase.split(" "))
+#buscar la palabra con find()
+print(frase.find("programacion"))
+print(frase.find("java"))
+
+print(frase.replace("crear soluciones","soluciones"))
+
+numero_texto = "23"
+is_digit = numero_texto.isdigit()
+print(is_digit)
+
+edad = 16
+nombre = "Ana"
+print(edad)
+print("Hola mundo()")
+print("Mi nombre es", nombre, "y tengo", edad, "anos de edad")
+
+"""Una tienda vende un producto cuyo precio esta guardado como texto: "19.99". El cliente quiere comprar 3 unidades. Convierta el precio del texto a un numero decimal (float).
+Multiplique ese precio por la cantidad de productos
+"""
+aceite = "19.99"
+aceite_número = float(19.99)
+x = int(input("¿cuántos aceites comprarás?: "))
+precio = aceite_número * x
+print(" El precio del aceite es: \n", precio)
