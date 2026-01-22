@@ -77,5 +77,5 @@ Multiplique ese precio por la cantidad de productos
 aceite = "19.99"
 aceite_número = float(19.99)
 x = int(input("¿cuántos aceites comprarás?: "))
-precio = aceite_número * x
-print(" El precio del aceite es: \n", precio)
+precioo = aceite_número * x
+print(" El precio del aceite es: \n", precioo)
