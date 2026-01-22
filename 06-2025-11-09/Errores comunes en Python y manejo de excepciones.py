@@ -1,5 +1,5 @@
 # ============================================
-# Clase 5 – Errores y manejo de excepciones en Python
+# Clase 6 – Errores y manejo de excepciones en Python
 # ============================================
 
 
