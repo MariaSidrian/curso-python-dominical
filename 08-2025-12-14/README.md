@@ -1,0 +1,1 @@
+En esta clase aprendemos los fundamentos de la Programación Orientada a Objetos (POO) en Python, creando clases, utilizando constructores (__init__), aplicando herencia entre clases padre e hijas y comprendiendo cómo se organizan las jerarquías de objetos.
