@@ -109,7 +109,7 @@ except NameError:
 except ValueError:
   print("x no es un número válido")    #Si pones una respuesta que necesite un valor de valor, se imprime hata abajo los dos print, pero si es solo hasta el error de nombre, solo se imprime el primer print
 
-#Ciclo CON BREAK
+#Ciclo CON UN BREAK
 
 while True:
   try:
